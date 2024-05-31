@@ -4,8 +4,14 @@
 
 
 .bg-purple {
-    background: linear-gradient(90deg, #000A1F, #000C2F);
+    background: #000a1d;
 }
+
+.bg-purple-light {
+    /* background: linear-gradient(rgba(0, 10, 31, 1), rgba(0, 12, 47, 1)); */
+    background: linear-gradient(rgb(0, 16, 49), rgb(0,10,29));
+}
+
 
 
 .grid-bg {
@@ -13,4 +19,13 @@
 }
 .vector1 {
     background-image: url("/vector1.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.gray-custom-bg {
+    background: rgba(41, 39, 56, 1)
+}
+.gray-custom-dark-bg {
+    background: rgba(35, 35, 49, 1);
 }
