@@ -43,7 +43,7 @@ const Seo = () => {
                 <p className='text-gray-400 text-sm mb-5'>Quis autem vel eum iure reprehenderit qui in ea voluptates velit esse quam molestiae consequatur velillum</p>
                 <div className='flex flex-col gap-5'>
                     {optionDropDownData.map((option, index) => (
-                        <div onClick={() => handleOpenDropdown(index)} className='flex flex-col gray-custom-bg text-white cursor-pointer '>
+                        <div key={index} onClick={() => handleOpenDropdown(index)} className='flex flex-col gray-custom-bg text-white cursor-pointer '>
                             <div className='flex items-center justify-between gap-5 p-5 '>
                                 <p>{option.question}</p>
                                 <FaArrowRight className={clsx("duration-300",{'rotate-90': index === isOptionDropdownOpen})}/>

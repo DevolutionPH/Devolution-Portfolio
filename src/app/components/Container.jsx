@@ -7,6 +7,9 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Project from './pages/Project';
 import Seo from './pages/Seo';
+import Achievement from './pages/Achievement';
+import Client from './pages/Client';
+import Contact from './pages/Contact';
 
 
 const Container = () => {
@@ -18,6 +21,9 @@ const Container = () => {
       <Services />
       <Project />
       <Seo />
+      <Achievement />
+      <Client />
+      <Contact />
     </div>
   )
 }
