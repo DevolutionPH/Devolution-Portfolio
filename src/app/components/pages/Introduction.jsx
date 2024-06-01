@@ -1,24 +1,24 @@
 import React from 'react';
 import Header from '../Header';
 import Image from 'next/image';
-import moon from "/public/moon.png"
-import ThunkLight from "/public/think-bulb.png";
-import rocketMan from "/public/rocketman.png";
-import devolution from "/public/Devolution.png";
-import pseudo from "/public/pseudo.png";
+import moon from "/moon.png"
+import ThunkLight from "/think-bulb.png";
+import rocketMan from "/rocketman.png";
+import devolution from "/Devolution.png";
+import pseudo from "/pseudo.png";
 
 //three cloud pictures
-import cloud1 from "/public/cloud1.png";
-import cloud2 from "/public/cloud2.png";
-import cloud3 from "/public/cloud3.png";
+import cloud1 from "/cloud1.png";
+import cloud2 from "/cloud2.png";
+import cloud3 from "/cloud3.png";
 
-import client1 from "/public/client1.png";
-import client2 from "/public/client2.png";
-import client3 from "/public/client3.png";
-import client4 from "/public/client4.png";
-import client5 from "/public/client5.png";
-import rightArrow from "/public/rightbutton.png";
-import leftArrow from "/public/leftbutton.png";
+import client1 from "/client1.png";
+import client2 from "/client2.png";
+import client3 from "/client3.png";
+import client4 from "/client4.png";
+import client5 from "/client5.png";
+import rightArrow from "/rightbutton.png";
+import leftArrow from "/leftbutton.png";
 
 const partner = [leftArrow, client1, client2, client3, client4, client5, rightArrow];
 

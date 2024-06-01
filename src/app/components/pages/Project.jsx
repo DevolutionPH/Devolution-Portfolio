@@ -1,13 +1,13 @@
 import React from 'react'
 import Image from 'next/image';
 
-import ProjectImg from "/public/Projects.png";
-import zigzag from "/public/pseudo.png";
+import ProjectImg from "/Projects.png";
+import zigzag from "/pseudo.png";
 
 //project images
-import projectImg1 from "/public/project-1.jpg";
-import projectImg2 from "/public/project-2.jpg";
-import projectImg3 from "/public/project-3.jpg";
+import projectImg1 from "/project-1.jpg";
+import projectImg2 from "/project-2.jpg";
+import projectImg3 from "/project-3.jpg";
 
 const projectData = [{
   projectImage: projectImg1,
