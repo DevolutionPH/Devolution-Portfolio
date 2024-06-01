@@ -6,6 +6,8 @@ import Features from './pages/Features';
 import About from './pages/About';
 import Services from './pages/Services';
 import Project from './pages/Project';
+import Seo from './pages/Seo';
+
 
 const Container = () => {
   return (
@@ -15,6 +17,7 @@ const Container = () => {
       <About />
       <Services />
       <Project />
+      <Seo />
     </div>
   )
 }

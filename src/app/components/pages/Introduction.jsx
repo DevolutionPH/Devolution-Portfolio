@@ -57,10 +57,10 @@ const Introduction = () => {
           <div className='max-w-7xl mx-auto '>
             <Header />
               <div className='flex gap-1 items-center justify-between relative z-10'>
-                  <div className='text-white text-6xl font-semibold'>   
+                  <div className='text-white text-6xl font-semibold w-[40%]'>   
                     <div className='flex items-center gap-3 relative'>
                       <h1>We Provide</h1>
-                      <Image alt='think light' className='absolute -right-10' src={ThunkLight}/>
+                      <Image alt='think light' className='absolute right-5' src={ThunkLight}/>
                     </div> 
                     <div className='flex flex-col gap-1'>
                       <h1>Smart Business</h1>
@@ -68,13 +68,13 @@ const Introduction = () => {
                     </div>
                     
                   </div>
-                  <div>
+                  <div className='w-[60%]'>
                     <Image alt='rocket-man' src={rocketMan}/>
                   </div>
             
                   <Image className='absolute top-0' alt='cloud-1' src={cloud1}/>
                   <Image className='absolute top-0 right-0' alt='cloud-2' src={cloud2}/>
-                  <Image className='absolute left-[40%] bottom-[30%]' alt='cloud-3' src={cloud3}/>
+                  <Image className='absolute left-[40%] bottom-[10%]' alt='cloud-3' src={cloud3}/>
                   <Image className='absolute right-0' alt='cloud-3' src={moon}/>
               </div>
           </div>
