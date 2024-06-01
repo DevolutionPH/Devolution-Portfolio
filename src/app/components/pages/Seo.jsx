@@ -1,9 +1,9 @@
 "use client"
 import React, { useState } from 'react'
 import Image from 'next/image';
-import seoImg from "../../../../public/Seo.png"
-import zigzag from "../../../../public/pseudo.png";
-import faq from "../../../../public/faq.png";
+import seoImg from "/public/Seo.png"
+import zigzag from "/public/pseudo.png";
+import faq from "/public/faq.png";
 import { FaArrowRight } from "react-icons/fa";
 import clsx from 'clsx';
 

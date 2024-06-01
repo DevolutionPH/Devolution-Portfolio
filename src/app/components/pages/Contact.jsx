@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import callImg from "../../../../public/call.png"
-import zigzag from "../../../../public/pseudo.png";
-import contactUsImg from "../../../../public/contactus.png"
+import callImg from "/public/call.png"
+import zigzag from "/public/pseudo.png";
+import contactUsImg from "/public/contactus.png"
 
 const Contact = () => {
   return (

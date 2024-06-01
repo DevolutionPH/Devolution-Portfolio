@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import factImg from "../../../../public/fact.png"
-import zigzag from "../../../../public/pseudo.png";
-import playIcon from "../../../../public/play.png";
-import handShake from "../../../../public/handshake.png";
-import formal from "../../../../public/formal.png";
-import groupofPeople from "../../../../public/group-people.png";
-import simpleBox from "../../../../public/box-awang.png"
+import factImg from "/public/fact.png"
+import zigzag from "/public/pseudo.png";
+import playIcon from "/public/play.png";
+import handShake from "/public/handshake.png";
+import formal from "/public/formal.png";
+import groupofPeople from "/public/group-people.png";
+import simpleBox from "/public/box-awang.png"
 
 const achievementData = [{
     icon: handShake,

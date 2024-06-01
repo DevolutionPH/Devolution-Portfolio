@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import deveLogo from "../../../public/devo-logo.png";
+import deveLogo from "/public/devo-logo.png";
 
 const Icon = () => {
   return (
