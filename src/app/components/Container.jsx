@@ -10,6 +10,7 @@ import Seo from './pages/Seo';
 import Achievement from './pages/Achievement';
 import Client from './pages/Client';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 
 
 const Container = () => {
@@ -24,6 +25,7 @@ const Container = () => {
       <Achievement />
       <Client />
       <Contact />
+      <Footer />
     </div>
   )
 }
