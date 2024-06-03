@@ -33,6 +33,13 @@
     background-size: cover; 
     background-repeat: no-repeat;
 }
+/* will pop when it react tablet below  */
+@media (max-width: 768px) {
+    .vector1 {
+        background-image: url("../images/vector2-mobile.png");
+    }
+}
+
 
 .gray-custom-bg {
     background: rgba(41, 39, 56, 1)

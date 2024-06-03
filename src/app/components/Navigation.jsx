@@ -6,7 +6,6 @@ import { RiMenuLine, RiCloseLargeFill } from "react-icons/ri";
 import SocialMediaAccounts from './ui/SocialMediaAccounts';
 import clsx from 'clsx';
 
-
 const navItem = [{
   title: "home",
   url: "/home"
@@ -26,8 +25,6 @@ const navItem = [{
   title: "contact",
   url: "/home"
 }]
-
-
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

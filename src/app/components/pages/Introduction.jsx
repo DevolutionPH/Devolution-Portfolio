@@ -19,12 +19,13 @@ import client4 from "../../../images/client4.png";
 import client5 from "../../../images/client5.png";
 import rightArrow from "../../../images/rightbutton.png";
 import leftArrow from "../../../images/leftbutton.png";
+import clsx from 'clsx';
 
 const partner = [leftArrow, client1, client2, client3, client4, client5, rightArrow];
 
 const InntroductionLowerPart = () => {
   return (
-    <div className='m-auto relative -top-40 flex justify-center items-center vector1 w-full '>
+    <div className='m-auto relative -top-40 flex justify-center items-center vector1 w-full max-lg:px-5'>
       <div className='flex flex-col gap-5'>
         <div className='flex items-center justify-between gap-5 max-w-7xl mx-auto mt-40 '>
             <div className='flex flex-col gap-3 justify-center items-center w-[45%]'>
@@ -33,7 +34,7 @@ const InntroductionLowerPart = () => {
                 <Image alt='devolution' src={devolution}/>
               </div>
 
-              <h2 className='text-white text-3xl relative -top-10 font-bold'>We’ve More Then 69+ <br /> Global Partners</h2>
+              <h2 className='text-white text-3xl max-md:text-2xl relative -top-10 max-md:-top-8 font-bold'>We’ve More Then 69+ <br /> Global Partners</h2>
             </div>
             <div className='w-[40%]'>
               <p className='text-gray-400 text-xs'>Devolution Partners specializes in website development, crafting innovative digital solutions to help businesses thrive in the online world.</p>
@@ -42,7 +43,9 @@ const InntroductionLowerPart = () => {
          <span className='flex justify-center after:w-[90%] after:h-[1px] after:bg-gray-400 after:bg-opacity-50'></span>
          <div className='flex items-center justify-evenly'>
           {partner.map((partnerImg, index) => (
-            <Image src={partnerImg} key={index} alt='images' />
+            <Image src={partnerImg} key={index} alt='images' className={clsx({
+              "hidden": index === 3 || index === 4
+            })} />
           ))}
          </div>
         </div>
@@ -54,28 +57,21 @@ const Introduction = () => {
   return (
     <div className='flex flex-col relative bg-purple-light'>
         <div className='grid-bg '>
-          <div className='max-w-7xl mx-auto '>
+          <div className='max-w-7xl mx-auto max-lg:px-5 max-md:flex max-md:flex-col max-md:gap-10'>
             <Header />
-              <div className='flex gap-1 items-center justify-between relative z-10'>
-                  <div className='text-white text-6xl font-semibold w-[40%]'>   
-                    <div className='flex items-center gap-3 relative'>
-                      <h1>We Provide</h1>
-                      <Image alt='think light' className='absolute right-5' src={ThunkLight}/>
-                    </div> 
-                    <div className='flex flex-col gap-1'>
-                      <h1>Smart Business</h1>
-                      <h1>Solution</h1>
-                    </div>
-                    
+              <div className='flex gap-1 items-center justify-between relative z-10 max-md:flex-col'>
+                  <div className='relative font-semibold w-[40%] max-md:w-full max-md:flex max-md:justify-center max-md:text-center  '>   
+                    <h1 className='leading-normal text-6xl max-lg:text-4xl max-md:text-6xl max-sm:text-5xl text-white max-md:text-center'>We Provide Smart Business Solution</h1>
+                    <Image alt='think light' className='absolute -top-[20%] right-0 max-lg:hidden ' src={ThunkLight}/>
                   </div>
-                  <div className='w-[60%]'>
+                  <p className='text-white md:hidden text-center my-5'>Glow Your Business With Us Best Business Solutions</p>
+                  <div className='w-[60%] max-md:w-full'>
                     <Image alt='rocket-man' src={rocketMan}/>
                   </div>
-            
-                  <Image className='absolute top-0' alt='cloud-1' src={cloud1}/>
-                  <Image className='absolute top-0 right-0' alt='cloud-2' src={cloud2}/>
-                  <Image className='absolute left-[40%] bottom-[10%]' alt='cloud-3' src={cloud3}/>
-                  <Image className='absolute right-0' alt='cloud-3' src={moon}/>
+                  <Image className='absolute top-0 max-md:hidden' alt='cloud-1' src={cloud1}/>
+                  <Image className='absolute top-0 right-0 max-md:hidden' alt='cloud-2' src={cloud2}/>
+                  <Image className='absolute left-[40%] bottom-[10%] max-md:hidden' alt='cloud-3' src={cloud3}/>
+                  <Image className='absolute right-5 top-[50%]' alt='cloud-3' src={moon}/>
               </div>
           </div>
         </div>
