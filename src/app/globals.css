@@ -15,10 +15,10 @@
 
 
 .grid-bg {
-    background-image: url("/Grid.png");
+    background-image: url("../images/Grid.png");
 }
 .vector1 {
-    background-image: url("/vector1.png");
+    background-image: url("../images/vector1.png");
     background-size: cover; 
     background-repeat: no-repeat;
 }
