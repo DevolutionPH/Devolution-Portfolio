@@ -2,15 +2,15 @@ import React from 'react'
 import Image from 'next/image';
 
 //images
-import emojiLogo from "/emoji.png";
-import laptopman from "/laptopman.png";
-import features from "/features.png";
-import zigzag from "/pseudo.png";
+import emojiLogo from "../../../images/emoji.png";
+import laptopman from "../../../images/laptopman.png";
+import features from "../../../images/features.png";
+import zigzag from "../../../images/pseudo.png";
 
-import features1 from "/feature-1.png";
-import features2 from "/feature-2.png";
-import features3 from "/feature-3.png";
-import features4 from "/feature-4.png";
+import features1 from "../../../images/feature-1.png";
+import features2 from "../../../images/feature-2.png";
+import features3 from "../../../images/feature-3.png";
+import features4 from "../../../images/feature-4.png";
 const featuresData = [{
     icon: features1,
     title: "Business Growth",

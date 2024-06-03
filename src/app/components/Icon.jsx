@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import deveLogo from "/devo-logo.png";
+import devoLogo from "../../images/devo-logo.png";
 
 const Icon = () => {
   return (
     <div>
-        <Image alt='devo-logo' height={80} src={deveLogo}/>
+        <Image alt='devo-logo' height={80} src={devoLogo}/>
     </div>
   )
 }

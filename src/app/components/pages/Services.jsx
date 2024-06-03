@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaArrowRight } from "react-icons/fa6";
-import zigzag from "/pseudo.png";
-import servicesImg from "/Services.png";
-import servicesRating from "/bg-icon-two-dark.png";
 import clsx from 'clsx';
+import { FaArrowRight } from "react-icons/fa6";
 
-import service1 from "/service-icon-1.png"
-import service2 from "/service-icon-2.png"
-import service3 from "/service-icon-3.png"
-import service4 from "/service-icon-4.png"
-import service5 from "/service-icon-5.png"
+import zigzag from "../../../images/pseudo.png";
+import servicesImg from "../../../images/Services.png";
+import servicesRating from "../../../images/bg-icon-two-dark.png";
+import service1 from "../../../images/service-icon-1.png"
+import service2 from "../../../images/service-icon-2.png"
+import service3 from "../../../images/service-icon-3.png"
+import service4 from "../../../images/service-icon-4.png"
+import service5 from "../../../images/service-icon-5.png"
 
 const servicesData = [{
     icon: service1,

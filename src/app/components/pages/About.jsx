@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image';
-import zigzag from "/pseudo.png";
-import who from "/who.png";
-import aboutImg from "/about.png";
-import checkIcon from "/check.png";
+import zigzag from "../../../images/pseudo.png";
+import who from "../../../images/who.png";
+import aboutImg from "../../../images/about.png";
+import checkIcon from "../../../images/check.png";
 
 const services = ["Tech Solutions", "IT Consulting", "Web Solutions", "Business Growth", "Product Design"];
 

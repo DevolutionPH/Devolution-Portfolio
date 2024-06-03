@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image';
-import saysImage from "/says.png";
-import zigzag from "/pseudo.png";
-import emojiBg from "/bg-pattern-8.png";
-import emojiBg2 from "/bg-pattern-9.png";
-import doubleQuote1 from "/span.icon.png";
-import messageIcon from "/message-icon.png";
+import saysImage from "../../../images/says.png";
+import zigzag from "../../../images/pseudo.png";
+import emojiBg from "../../../images/bg-pattern-8.png";
+import emojiBg2 from "../../../images/bg-pattern-9.png";
+import doubleQuote1 from "../../../images/span.icon.png";
+import messageIcon from "../../../images/message-icon.png";
 
 const Client = () => {
   return (

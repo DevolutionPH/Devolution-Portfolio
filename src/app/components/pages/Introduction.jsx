@@ -1,24 +1,24 @@
 import React from 'react';
 import Header from '../Header';
 import Image from 'next/image';
-import moon from "/moon.png"
-import ThunkLight from "/think-bulb.png";
-import rocketMan from "/rocketman.png";
-import devolution from "/Devolution.png";
-import pseudo from "/pseudo.png";
+import moon from "../../../images/moon.png"
+import ThunkLight from "../../../images/think-bulb.png";
+import rocketMan from "../../../images/rocketman.png";
+import devolution from "../../../images/Devolution.png";
+import pseudo from "../../../images/pseudo.png";
 
 //three cloud pictures
-import cloud1 from "/cloud1.png";
-import cloud2 from "/cloud2.png";
-import cloud3 from "/cloud3.png";
+import cloud1 from "../../../images/cloud1.png";
+import cloud2 from "../../../images/cloud2.png";
+import cloud3 from "../../../images/cloud3.png";
 
-import client1 from "/client1.png";
-import client2 from "/client2.png";
-import client3 from "/client3.png";
-import client4 from "/client4.png";
-import client5 from "/client5.png";
-import rightArrow from "/rightbutton.png";
-import leftArrow from "/leftbutton.png";
+import client1 from "../../../images/client1.png";
+import client2 from "../../../images/client2.png";
+import client3 from "../../../images/client3.png";
+import client4 from "../../../images/client4.png";
+import client5 from "../../../images/client5.png";
+import rightArrow from "../../../images/rightbutton.png";
+import leftArrow from "../../../images/leftbutton.png";
 
 const partner = [leftArrow, client1, client2, client3, client4, client5, rightArrow];
 
