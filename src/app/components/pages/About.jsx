@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import zigzag from '../../../images/pseudo.png';
-import who from '../../../images/who.png';
+import who from '../../../images/who-image.png';
 import aboutImg from '../../../images/about-us.png';
 import checkIcon from '../../../images/check.png';
 
