@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Icon from '../Icon'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { MdOutlineMailOutline, MdKeyboardDoubleArrowRight  } from "react-icons/md";
+import SocialMediaAccounts from '../ui/SocialMediaAccounts';
 
 const servicesData = [{
     text: "Product Design",
@@ -32,33 +33,6 @@ const contactData = [{
     url: "/"
 }, ]
 
-
-const SocialAccountContainer = () => {
-    const socialAccount = [{
-        icon: <FaFacebookF />,
-        url: "/"
-    }, {
-        icon: <FaTwitter />,
-        url: "/"
-    }, {
-        icon: <FaLinkedinIn />,
-        url: "/"
-    }, {
-        icon: <FaInstagram />,
-        url: "/"
-    }];
-
-    return (
-        <div className='flex items-center gap-2'>
-            {socialAccount.map((social, index) => (
-                <Link key={index} href={social.url} className='text-white border-white border rounded-full p-3'>
-                    {social.icon}
-                </Link>
-            ))}
-        </div>
-    )
-}
-
 const additionSettings = [{
     text: "Setting & Privacy",
     url: "/"
@@ -77,7 +51,7 @@ const Footer = () => {
             <div className='flex flex-col gap-5'>
                 <Icon />
                 <p className='text-white font-semibold'>Follow</p>
-                <SocialAccountContainer />
+                <SocialMediaAccounts />
             </div>
             <div>
                 <h2 className='font-semibold text-white mb-5'>Services</h2>

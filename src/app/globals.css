@@ -17,6 +17,17 @@
 .grid-bg {
     background-image: url("../images/Grid.png");
 }
+
+
+.nav-mobile-bg {
+    background: 
+        url("../images/mobile-bg-nav.png") no-repeat center center / cover, 
+        linear-gradient(to bottom, #000A1F, #3CA8DE);
+        background-repeat: no-repeat;
+        background-size: cover; 
+}
+
+
 .vector1 {
     background-image: url("../images/vector1.png");
     background-size: cover; 
