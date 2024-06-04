@@ -6,11 +6,11 @@ import emojiLogo from "../../../images/emoji.png";
 import laptopman from "../../../images/laptopman.png";
 import features from "../../../images/features.png";
 import zigzag from "../../../images/pseudo.png";
-
 import features1 from "../../../images/feature-1.png";
 import features2 from "../../../images/feature-2.png";
 import features3 from "../../../images/feature-3.png";
 import features4 from "../../../images/feature-4.png";
+
 const featuresData = [{
     icon: features1,
     title: "Business Growth",
@@ -39,7 +39,7 @@ const Features = () => {
       <div className='w-[60%] max-lg:w-full flex flex-col gap-y-10 justify-center items-center'>
         <div className='flex justify-center flex-col items-center max-md:w-[80%]'>
             <div className='flex flex-col gap-3'>
-                <Image alt='zigzag' src={zigzag}/>
+                <Image alt='zigzag' src={zigzag} className='relative top-8'/>
                 <Image alt='devolution' src={features}/>
             </div>
             <h2 className='text-white text-3xl relative -top-10 font-bold'>We’ve More Then 69+ <br /> Global Partners</h2>

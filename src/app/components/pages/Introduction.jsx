@@ -27,16 +27,16 @@ const InntroductionLowerPart = () => {
   return (
     <div className='m-auto relative -top-40 flex justify-center items-center vector1 w-full max-lg:px-5'>
       <div className='flex flex-col gap-5'>
-        <div className='flex items-center justify-between gap-5 max-w-7xl mx-auto mt-40 '>
-            <div className='flex flex-col gap-3 justify-center items-center w-[45%]'>
+        <div className='flex items-center justify-between gap-5 max-w-7xl mx-auto mt-40 max-sm:flex-col'>
+            <div className='flex flex-col gap-3 justify-center items-center w-[45%] max-sm:w-full'>
               <div className='flex flex-col gap-3'>
-                <Image alt='zigzag' src={pseudo}/>
+                <Image alt='zigzag' className='relative top-8' src={pseudo}/>
                 <Image alt='devolution' src={devolution}/>
               </div>
 
               <h2 className='text-white text-3xl max-md:text-2xl relative -top-10 max-md:-top-8 font-bold'>We’ve More Then 69+ <br /> Global Partners</h2>
             </div>
-            <div className='w-[40%]'>
+            <div className='w-[40%] max-sm:w-full'>
               <p className='text-gray-400 text-xs'>Devolution Partners specializes in website development, crafting innovative digital solutions to help businesses thrive in the online world.</p>
             </div>
          </div>
@@ -44,7 +44,8 @@ const InntroductionLowerPart = () => {
          <div className='flex items-center justify-evenly'>
           {partner.map((partnerImg, index) => (
             <Image src={partnerImg} key={index} alt='images' className={clsx({
-              "hidden": index === 3 || index === 4
+              "max-md:hidden": index === 3 || index === 4,
+              "max-sm:hidden": index === 1 || index === 5
             })} />
           ))}
          </div>
