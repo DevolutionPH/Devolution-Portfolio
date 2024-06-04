@@ -1,6 +1,5 @@
-"use client"
 import React, { useState, useEffect } from 'react'
-import { useMediaQuery } from '@uidotdev/usehooks';
+import { useMediaQuery } from '../utility/useMediaQuery';
 import Link from 'next/link'
 import { RiMenuLine, RiCloseLargeFill } from "react-icons/ri";
 import SocialMediaAccounts from './ui/SocialMediaAccounts';
@@ -42,6 +41,8 @@ const Navigation = () => {
     setIsMenuOpen((prev) => !prev)
   }
 
+
+  
 
   return (
     <>
