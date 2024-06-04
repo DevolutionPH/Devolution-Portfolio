@@ -1,18 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
-import callImg from "/public/call.png"
-import zigzag from "/public/pseudo.png";
-import contactUsImg from "/public/contactus.png"
+import callImg from "../../../images/call.png"
+import zigzag from "../../../images/pseudo.png";
+import contactUsImg from "../../../images/contactus.png"
 
 const Contact = () => {
   return (
-    <div className='flex justify-between items-center gap-5 mx-auto max-w-7xl py-20'>
-        <div className='w-1/2 px-5 flex justify-center'>
+    <div className='flex justify-between items-center gap-5 mx-auto max-w-7xl py-20 max-md:flex-col'>
+        <div className='w-1/2 px-5 flex justify-center max-md:w-full'>
             <div className='flex flex-col gap-3'>
                 <Image alt='contactus' src={contactUsImg}/>
             </div>
         </div>
-        <div className='flex flex-col mx-auto px-10 w-1/2 justify-center'>
+        <div className='flex flex-col mx-auto px-10 max-sm:px-5 w-1/2 max-md:w-full justify-center'>
             <Image alt='zigzag' className='relative top-5 left-5' src={zigzag}/>
             <div className='flex flex-col gap-3'>
                 <Image alt='callus' src={callImg} className='w-[50%]'/>

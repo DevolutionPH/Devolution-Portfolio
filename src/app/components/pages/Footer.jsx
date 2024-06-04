@@ -1,8 +1,9 @@
 import React from 'react'
 import Link from 'next/link';
 import Icon from '../Icon'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+
 import { MdOutlineMailOutline, MdKeyboardDoubleArrowRight  } from "react-icons/md";
+import SocialMediaAccounts from '../ui/SocialMediaAccounts';
 
 const servicesData = [{
     text: "Product Design",
@@ -32,33 +33,6 @@ const contactData = [{
     url: "/"
 }, ]
 
-
-const SocialAccountContainer = () => {
-    const socialAccount = [{
-        icon: <FaFacebookF />,
-        url: "/"
-    }, {
-        icon: <FaTwitter />,
-        url: "/"
-    }, {
-        icon: <FaLinkedinIn />,
-        url: "/"
-    }, {
-        icon: <FaInstagram />,
-        url: "/"
-    }];
-
-    return (
-        <div className='flex items-center gap-2'>
-            {socialAccount.map((social, index) => (
-                <Link key={index} href={social.url} className='text-white border-white border rounded-full p-3'>
-                    {social.icon}
-                </Link>
-            ))}
-        </div>
-    )
-}
-
 const additionSettings = [{
     text: "Setting & Privacy",
     url: "/"
@@ -73,11 +47,11 @@ const additionSettings = [{
 const Footer = () => {
   return (
     <div className='flex flex-col mx-auto max-w-7xl py-20 gap-10'>
-        <div className='flex justify-between items-start gap-5 '>
+        <div className='flex justify-between items-start gap-5 max-md:flex-col max-md:px-5'>
             <div className='flex flex-col gap-5'>
                 <Icon />
                 <p className='text-white font-semibold'>Follow</p>
-                <SocialAccountContainer />
+                <SocialMediaAccounts />
             </div>
             <div>
                 <h2 className='font-semibold text-white mb-5'>Services</h2>
@@ -103,7 +77,7 @@ const Footer = () => {
                     ))}    
                 </ul>
             </div>
-            <div className='flex flex-col gap-5'>
+            <div className='flex flex-col gap-5 max-md:w-full'>
                 <h2 className='text-white font-semibold mb-5'>Newsletter</h2>
                 <h1 className='text-white '>Get Every Single Update to Join Our Newsletter</h1>
                 <div className='flex justify-between border-b-gray-100 border-b text-white gap-5'>
@@ -118,7 +92,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-between text-white items-center'>
+        <div className='flex justify-between text-white items-center max-md:px-5'>
                 <p className='text-xs text-gray-400'>Copy@2024 Devolution. All Rights reserved</p>
                 <ul className='flex items-center gap-5'>
                     {additionSettings.map((settings, index) => (
