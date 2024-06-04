@@ -15,7 +15,7 @@ import Footer from './pages/Footer';
 
 const Container = () => {
   return (
-    <div className='bg-purple '>
+    <div className='bg-purple overflow-hidden'>
       <Introduction />
       <Features />
       <About />

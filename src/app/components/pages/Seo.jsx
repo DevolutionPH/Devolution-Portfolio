@@ -33,8 +33,8 @@ const Seo = () => {
 
    
     return (
-        <div className='flex justify-between items-center gap-5 mx-auto max-w-7xl py-20'>
-            <div className='flex justify-center flex-col w-1/2 mx-auto px-10'>
+        <div className='flex justify-between items-center gap-5 mx-auto max-w-7xl py-20 max-md:flex-col-reverse'>
+            <div className='flex justify-center flex-col w-1/2 max-md:w-full mx-auto px-10'>
                 <div className='flex flex-col gap-3'>
                     <Image alt='devolution' src={seoImg} className='w-1/3'/>
                 </div>
@@ -54,7 +54,7 @@ const Seo = () => {
                     ))}
                 </div>
             </div>
-            <div className='w-1/2 px-5'>
+            <div className='w-1/2 px-5 max-md:w-full'>
                 <Image alt='faq image' src={faq}/>
             </div>
         </div>
