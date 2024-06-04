@@ -52,11 +52,11 @@ const Navigation = () => {
         {isMenuOpen && isSmallDevice && <RiCloseLargeFill className='absolute right-5 top-5 text-white' size={20} onClick={handleMenuOpen}/>}
         
         {navItem.map((nav, index) => (
-          <li key={index} className={clsx('duration-300 w-full text-gray-500 hover:text-white active:bg-blue-400 px-3 py-2 rounded-full', {
-            "text-white uppercase": isMenuOpen && isSmallDevice 
+          <li key={index} className={clsx('uppercase duration-300 w-full text-gray-500 hover:text-white active:bg-blue-400 px-3 py-2 rounded-full', {
+            "text-white": isMenuOpen && isSmallDevice 
           })}>
             <Link href={nav.url}>
-              {nav.title.charAt(0).toUpperCase() + nav.title.slice(1)}
+              {nav.title}
             </Link>
           </li>
         ))}
