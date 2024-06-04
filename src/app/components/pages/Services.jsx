@@ -45,7 +45,7 @@ const Services = () => {
             <Image alt='zigzag' className='relative -top-20 max-md:-top-12' src={zigzag}/>
             <h2 className='text-white text-3xl max-md:text-2xl relative -top-16 max-md:-top-12 text-center font-bold'>Great Features To Do Your Business Growth & Development</h2>
         </div>
-        <div className='w-full flex items-center relative max-md:flex-col'>
+        <div className='w-full flex items-center relative max-md:flex-col gap-10'>
             <div className='w-[50%] max-md:w-full flex justify-center'>
                 <Image alt='services' className='max-w-96' src={servicesRating}/>
             </div>
